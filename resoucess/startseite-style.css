@@ -161,7 +161,7 @@ footer{
   flex-direction: column;
   justify-content: center;
 }
-@media only screen and (max-width: 720px){
+@media only screen and (orientation: portrait){
   .text-container{
     flex-direction: column;
   }
