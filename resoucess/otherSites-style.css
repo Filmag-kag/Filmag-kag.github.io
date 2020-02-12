@@ -6,12 +6,12 @@ html{
   --thirdcolor: #dadad9;
   --fourthcolor: #2e294e;
   --fivthcolor: #738290;
-  font-family: 'Lato' sans-serif;
 }
 .content{
   background-color: var(--firstcolor);
   display: flex;
   flex-direction: column;
+  font-family: 'Lato' ,sans-serif;
 }
 h1{
   color: var(--fivthcolor);
