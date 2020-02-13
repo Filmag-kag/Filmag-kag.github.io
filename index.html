@@ -5,18 +5,22 @@
     <link href="resoucess/startseite-style.css" type="text/css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Domine&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="resoucess/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   </head>
   <body>
     <div class="content">
       <header>
         <div class="container-head">
+          <h1 class='headline'>Film-AG</h1>
           <nav>
-            <div class="nav-container">
+            <div id="side-nav" class="nav-container">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
               <a href="#allgemein" class='nav'>Allgemein</a>
               <a href='#projekte' class='nav'>Projekte</a>
             </div>
+            <span onclick="openNav()">open</span>
           </nav>
-          <h1 class='headline'>Film-AG</h1>
         </div>
         <p>Interessierst du dich f&uuml;r Dreh und Lichttechnik?<br>
          Wollest du schon immer einen Film schneiden?<br>
