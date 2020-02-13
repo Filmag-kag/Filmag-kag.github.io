@@ -173,6 +173,7 @@ footer{
 .menu span{
   margin-top: 13px;
   margin-left: 10px;
+  border-radius: 10px;
   display: none;
   width:80px;
   height: 13px;
