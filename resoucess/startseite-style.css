@@ -38,7 +38,7 @@ nav{
   flex-grow: 1;
   flex-shrink: 1;
   padding: 5px;
-  display: inline-block;
+  display: block;
   text-align: center;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -162,14 +162,22 @@ footer{
 }
 .menu{
   display: none;
-  width:150px;
-  height: 150px;
-  color: var(--fourthcolor);
+  width:100px;
+  height: 100px;
   background-color: var(--thirdcolor);
   position: absolute;
   margin-right: 9px;
   margin-top: 1px;
   right:0;
+}
+.menu span{
+  margin-top: 13px;
+  margin-left: 10px;
+  display: none;
+  width:80px;
+  height: 13px;
+  background-color: var(--fourthcolor);
+  z-index: 3;
 }
 
 @media only screen and (orientation: portrait){
@@ -190,20 +198,37 @@ footer{
   .menu{
     display: block;
   }
+  .menu span{
+    display: block;
+  }
   .nav-container{
     display: none;
   }
 }
 .navtoggled{
-  display: inline-flex !important;
-  align-items: center;
-  justify-content: flex-end;
-  flex-direction: column;
-  text-align: right;
+  display: block !important;
+  width: 100px;
+  height:210px;
   background-color: var(--firstcolor);
   position: absolute;
   right:0;
-  top:82px;
+  top:127px;
   margin-right: 10px;
-
+  border-radius: 5px;
+}
+.navtoggled .nav{
+  display: block;
+  width: 80px;
+  height: 50px;
+  padding-top: 19px;
+  padding-bottom: 19px;
+  border: 1px solid var(--thirdcolor);
+  border-radius: 5px;
+  padding-left: 4px;
+  padding-right: 4px;
+  margin-top: 10px;
+  margin-left: 5px;
+  font-size: 1rem;
+  margin-bottom: 0;
+  margin-right: 0;
 }
