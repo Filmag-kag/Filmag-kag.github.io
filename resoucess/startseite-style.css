@@ -160,6 +160,18 @@ footer{
   flex-direction: column;
   justify-content: center;
 }
+.menu{
+  display: none;
+  width:75px;
+  height: 75px;
+  color: var(--fourthcolor);
+  background-color: var(--thirdcolor);
+  position: absolute;
+  margin-right: 9px;
+  margin-top: 1px;
+  right:0;
+}
+
 @media only screen and (orientation: portrait){
   .text-container{
     flex-direction: column;
@@ -168,9 +180,30 @@ footer{
       font-size: 1.5rem;
     }
   .container-head{
-    flex-direction: column;
-  }
+      flex-direction: column;
+    }
   .platzhalter{
+     display: none;
+  }
+}
+@media all and (orientation: portrait){
+  .menu{
+    display: block;
+  }
+  .nav-container{
     display: none;
   }
+}
+.navtoggled{
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  text-align: right;
+  background-color: var(--firstcolor);
+  position: absolute;
+  right:0;
+  top:82px;
+  margin-right: 10px;
+
 }
