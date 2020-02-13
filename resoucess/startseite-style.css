@@ -160,7 +160,7 @@ footer{
   flex-direction: column;
   justify-content: center;
 }
-.menu{
+.menubutton{
   display: none;
   width:100px;
   height: 100px;
@@ -171,7 +171,7 @@ footer{
   right:0;
   z-index: 10;
 }
-.menu span{
+.menubutton span{
   margin-top: 13px;
   margin-left: 10px;
   border-radius: 10px;
@@ -180,6 +180,18 @@ footer{
   height: 13px;
   background-color: var(--fourthcolor);
   z-index: 10;
+  transition: transform 0.1s linear,
+              opacity 0.05s linear;
+}
+.menubutton.menu--open .span1{
+  transform: translateY(28px) rotate(-45deg);
+
+}
+.menubutton.menu--open .span2{
+  opacity: 0;
+}
+.menubutton.menu--open .span3{
+  transform: translateY(-24px) rotate(45deg);
 }
 
 @media only screen and (orientation: portrait){
@@ -197,10 +209,10 @@ footer{
   }
 }
 @media all and (orientation: portrait){
-  .menu{
+  .menubutton{
     display: block;
   }
-  .menu span{
+  .menubutton span{
     display: block;
   }
   .nav-container{
