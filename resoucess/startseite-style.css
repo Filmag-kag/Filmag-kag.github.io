@@ -30,7 +30,6 @@ nav{
   align-items: center;
   justify-content: flex-end;
   flex-direction: row;
-  z-index: 3;
   background-color: ;
   text-align: right;
 }
@@ -66,6 +65,10 @@ header p{
   position: relative;
   text-align: left;
 }
+/* The side navigation menu */
+
+
+
 main{
   background-color: var(--thirdcolor);
 }
