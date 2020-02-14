@@ -215,14 +215,7 @@ footer{
     display: block;
   }
   .nav-container{
-    display: block;
-    width:100px;
-    height:210px;
-    position:absolute;
-    right: -100px;
-    top:127px;
-    margin-right:10px;
-    transition: right 0.1s linear;
+    display: none;
   }
 }
 .navtoggled{
