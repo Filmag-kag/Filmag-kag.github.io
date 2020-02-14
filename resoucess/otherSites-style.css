@@ -50,3 +50,9 @@ p{
   background-color:var(--thirdcolor);
   color:var(--fourthcolor);
 }
+@media all and (orientation: protriat){
+  button{
+    font-size: 2.5rem;
+    
+  }
+}
