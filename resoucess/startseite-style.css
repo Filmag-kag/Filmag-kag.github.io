@@ -162,8 +162,8 @@ footer{
 }
 .menubutton{
   display: none;
-  width:100px;
-  height: 100px;
+  width:42px;
+  height: 42px;
   background-color: var(--thirdcolor);
   position: absolute;
   margin-right: 9px;
@@ -172,25 +172,25 @@ footer{
   z-index: 10;
 }
 .menubutton span{
-  margin-top: 13px;
-  margin-left: 10px;
-  border-radius: 10px;
+  margin-top: 6px;
+  margin-left: 7px;
+  border-radius: 5px;
   display: none;
-  width:80px;
-  height: 13px;
+  width:28px;
+  height: 6px;
   background-color: var(--fourthcolor);
   z-index: 10;
-  transition: transform 0.1s linear, opacity 0.05s linear;
+  transition: transform 0.1s linear, opacity 0.01s linear;
 }
 .menubutton.menu--open .span1{
-  transform: translateY(28px) rotate(-45deg);
+  transform: translateY(12px) rotate(-45deg);
 
 }
 .menubutton.menu--open .span2{
   opacity: 0;
 }
 .menubutton.menu--open .span3{
-  transform: translateY(-24px) rotate(45deg);
+  transform: translateY(-12px) rotate(45deg);
 }
 
 @media only screen and (orientation: portrait){
@@ -220,28 +220,28 @@ footer{
 }
 .navtoggled{
   display: block !important;
-  width: 100px;
-  height:210px;
+  width: 42px;
+  height:77px;
   background-color: var(--firstcolor);
   position: absolute;
   right:0;
-  top:127px;
+  top:49px;
   margin-right: 10px;
   border-radius: 5px;
 }
 .navtoggled .nav{
   display: block;
-  width: 80px;
-  height: 50px;
-  padding-top: 19px;
-  padding-bottom: 19px;
+  width: 14px;
+  height: 14px;
+  padding-top: 6px;
+  padding-bottom: 6px;
   border: 1px solid var(--thirdcolor);
   border-radius: 5px;
-  padding-left: 4px;
-  padding-right: 4px;
-  margin-top: 10px;
-  margin-left: 5px;
-  font-size: 1rem;
-  margin-bottom: 0;
+  padding-left: 6px;
+  padding-right: 6px;
+  margin-top: 7px;
+  margin-left: 7px;
+  font-size: 0.25rem;
+  margin-bottom: 7px;
   margin-right: 0;
 }
