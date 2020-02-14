@@ -44,7 +44,7 @@ nav{
   margin-bottom: 5px;
   margin-left: 10px;
   margin-right: 10px;
-  transition: all 0.5s linear;
+  transition: color 0.5s linear;
   background-color:;
   color: var(--thirdcolor);
   font-size: 1.5rem;
@@ -180,8 +180,7 @@ footer{
   height: 13px;
   background-color: var(--fourthcolor);
   z-index: 10;
-  transition: transform 0.1s linear,
-              opacity 0.05s linear;
+  transition: transform 0.1s linear, opacity 0.05s linear;
 }
 .menubutton.menu--open .span1{
   transform: translateY(28px) rotate(-45deg);
@@ -216,7 +215,14 @@ footer{
     display: block;
   }
   .nav-container{
-    display: none;
+    display: block;
+    width:100px;
+    height:210px;
+    position:absolute;
+    right: -100px;
+    top:127px;
+    margin-right:10px;
+    transition: right 0.1s linear;
   }
 }
 .navtoggled{
