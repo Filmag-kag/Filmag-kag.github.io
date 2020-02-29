@@ -7,6 +7,7 @@ html{
   --fourthcolor: #2e294e;
   --fivthcolor: #738290;
 }
+
 .content{
   background-color: var(--firstcolor);
   display: flex;
@@ -53,6 +54,6 @@ p{
 @media all and (orientation: protriat){
   button{
     font-size: 2.5rem;
-    
+
   }
 }
